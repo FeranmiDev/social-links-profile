@@ -8,7 +8,7 @@
 }
 
 body {
-  min-width: 350px;
+  min-width: 320px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  width: 350px;
+  width: 320px;
   height: auto;
   background-color: hsl(0, 0%, 12%);
   display: flex;

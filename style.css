@@ -9,7 +9,7 @@
 
 body {
   min-width: 320px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,7 +20,8 @@ body {
 }
 
 .card {
-  width: 320px;
+  width: 100%;
+  max-width: 20rem;
   height: auto;
   background-color: hsl(0, 0%, 12%);
   display: flex;

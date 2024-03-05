@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  min-width: 350px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  color: antiquewhite;
+}
+
+.card {
+  width: 350px;
+  height: auto;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.card img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.card-description {
+  width: fit-content;
+  height: auto;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-top: 0.4rem;
+}
+
+.card p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+
+.button-link {
+  width: 100%;
+  height: auto;
+}
+
+.button-link a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  margin-top: 1rem;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.button-link a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+.attribution a {
+  color: hsl(227, 100%, 96%);
+}
